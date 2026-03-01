@@ -1,0 +1,10 @@
+What is machine learning?
+Explain supervised learning
+What is SQL used for?
+What is a vector database?
+What is RAG?
+Explain hallucination in AI
+What is cosine similarity?
+What does FAISS do?
+What is chunking in RAG?
+What is a large language model?

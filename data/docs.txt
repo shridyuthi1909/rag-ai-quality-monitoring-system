@@ -1,0 +1,59 @@
+Machine Learning Overview:
+Machine learning is a branch of artificial intelligence that focuses on enabling systems to learn patterns from data instead of being explicitly programmed. It allows computers to improve performance on tasks such as prediction, classification, and clustering by analyzing historical data. Machine learning systems rely heavily on statistical methods and optimization techniques.
+
+Supervised Learning:
+Supervised learning involves training a model using labeled data, where each input is associated with a known output. The model learns a mapping function between inputs and outputs and can later predict results for unseen data. Common supervised learning algorithms include linear regression, logistic regression, support vector machines, and neural networks.
+
+Unsupervised Learning:
+Unsupervised learning works with datasets that do not contain labeled outputs. The objective is to discover hidden structures or relationships within the data. Clustering algorithms like K-means and hierarchical clustering group similar data points together, while dimensionality reduction techniques such as PCA reduce feature complexity.
+
+Overfitting and Underfitting:
+Overfitting occurs when a model performs extremely well on training data but fails to generalize to new data because it memorizes noise. Underfitting happens when a model is too simple to capture meaningful patterns. Techniques such as cross-validation, regularization, and increasing training data help mitigate these problems.
+
+Neural Networks:
+Neural networks are computational models inspired by the human brain. They consist of interconnected layers of neurons where each neuron applies weights, bias, and activation functions to inputs. Neural networks are widely used in tasks like image recognition, speech processing, and natural language understanding.
+
+Activation Functions:
+Activation functions introduce non-linearity into neural networks, allowing them to model complex patterns. Popular activation functions include ReLU, Sigmoid, and Tanh. The choice of activation function significantly affects training efficiency and model performance.
+
+Backpropagation:
+Backpropagation is the learning algorithm used to train neural networks. It calculates gradients of the loss function with respect to weights and updates them using optimization techniques like gradient descent. This iterative adjustment reduces prediction error over time.
+
+SQL and Databases:
+Structured Query Language, or SQL, is used to interact with relational databases. It allows users to retrieve, update, insert, and delete data efficiently. SQL is essential for managing structured data in production systems and for performing analytical queries.
+
+Vector Embeddings:
+Vector embeddings convert text or other data into numerical vectors in a high-dimensional space. Similar pieces of text have embeddings that are close to each other. Embeddings are fundamental to semantic search and retrieval-based AI systems.
+
+Cosine Similarity:
+Cosine similarity measures how similar two vectors are by computing the cosine of the angle between them. It is widely used in embedding-based search systems to determine how closely related two pieces of text are.
+
+Vector Databases:
+Vector databases are specialized systems designed to store and retrieve embeddings efficiently. They enable fast similarity search operations, which are critical for building scalable retrieval systems in AI applications.
+
+Retrieval-Augmented Generation:
+Retrieval-Augmented Generation, or RAG, is a technique that combines document retrieval with language model generation. Instead of relying solely on pre-trained knowledge, the system retrieves relevant documents and uses them as context to produce grounded responses.
+
+Chunking Strategy:
+Chunking involves splitting large documents into smaller segments before generating embeddings. Proper chunk size selection improves retrieval precision and ensures relevant context is passed to the language model.
+
+Hallucination in Language Models:
+Hallucination occurs when a language model generates information that is factually incorrect or unsupported by the provided context. Detecting hallucination is critical in production AI systems to ensure reliability and trust.
+
+Groundedness Evaluation:
+Groundedness measures whether the generated answer is supported by retrieved documents. A grounded response strictly relies on the provided context rather than introducing unsupported claims.
+
+Prompt Engineering:
+Prompt engineering is the practice of designing structured input instructions to guide language models toward accurate and relevant outputs. Clear context, constraints, and examples improve model reliability.
+
+Large Language Models:
+Large language models are deep learning systems trained on massive text corpora. They use transformer architectures and attention mechanisms to generate human-like text responses.
+
+Attention Mechanism:
+The attention mechanism allows models to focus on relevant parts of input data while processing information. This innovation significantly improved performance in natural language processing tasks.
+
+FAISS Library:
+FAISS is an open-source library developed by Facebook AI Research for efficient similarity search of dense vectors. It is commonly used to build local vector databases for retrieval systems.
+
+LangChain Framework:
+LangChain is a development framework designed to simplify building applications powered by large language models. It provides utilities for chaining prompts, integrating retrieval systems, and managing memory.
